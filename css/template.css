@@ -1,0 +1,38 @@
+body {
+  background: url(../sources/images/background.jpg); }
+  body nav {
+    background-color: #fcf1b5; }
+
+.main_bg {
+  margin-top: 3%; }
+
+.carousel {
+  margin-bottom: 1%; }
+
+.cardMainPage {
+  padding: 2%;
+  margin-right: 2%; }
+  .cardMainPage img {
+    align-self: center; }
+
+.row {
+  margin-right: 0; }
+
+.card-header {
+  background-color: #fcf1b5; }
+
+@media screen and (max-width: 768px) {
+  .cardMainPage img {
+    height: 133px;
+    width: 133px; } }
+@media screen and (min-width: 576px) {
+  .cardMainPage:nth-child(3n) {
+    margin-left: 14%; }
+
+  .cardMainPage:first-child {
+    margin-left: 14%; } }
+@media screen and (min-width: 992px) {
+  .cardMainPage:nth-child(3n) {
+    margin-left: 0; } }
+
+/*# sourceMappingURL=template.css.map */

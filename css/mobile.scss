@@ -1,0 +1,11 @@
+@media screen and (min-width: 576px)
+{
+    .cardMainPage:nth-child(3n)
+    {
+        margin-left: 14%;
+    }
+    .cardMainPage:first-child
+    {
+        margin-left: 14%;
+    }
+}

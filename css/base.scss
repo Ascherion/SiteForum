@@ -1,0 +1,38 @@
+body
+{
+    background: url(../sources/images/background.jpg);
+    nav
+    {
+        background-color: $bgColor;
+    }
+}
+
+.main_bg
+{
+    margin-top: 3%;
+}
+
+.carousel
+{
+    margin-bottom: 1%;
+}
+
+.cardMainPage
+{
+    padding: 2%;
+    margin-right: 2%;
+    img
+    {
+        align-self: center;
+    }
+}
+
+.row
+{
+    margin-right: 0;
+}
+
+.card-header
+{
+    background-color: $bgColor;
+}
